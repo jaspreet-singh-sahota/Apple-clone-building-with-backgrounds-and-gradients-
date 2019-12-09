@@ -8,6 +8,16 @@ body a {
   text-decoration: none;
 }
 
+nav a {
+  font-size: 1.5em;
+}
+
+footer a { color: #08c; }
+
+body p a {
+  color: #08c;
+}
+
 header {
   color: white;
   width: 100%;
@@ -39,6 +49,17 @@ nav ul {
   background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
 }
 
+footer li {
+  padding: 0 8px;
+  display: inline;
+}
+
+.menu li {
+  margin: -3px 0;
+  padding: 8px 30px;
+  border-right: 1px solid #4d4b4b;
+}
+
 nav ul li:last-child {
   border: none;
 }
@@ -68,6 +89,28 @@ nav ul li:hover {
   width: 980px;
   margin: 0 auto;
   margin-bottom: 350px;
+}
+
+.what-will {
+  width: 980px;
+  height: 112px;
+}
+
+.everyone-has {
+  margin-top: -29px;
+  width: 980px;
+  height: 86px;
+}
+
+.watch-the {
+  margin-top: 20px;
+  background: transparent url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt.png') top no-repeat;
+  width: 980px;
+  height: 32px;
+}
+
+.watch-the:hover {
+  background: transparent url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt.png') bottom no-repeat;
 }
 
 .thumbnails {
