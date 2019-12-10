@@ -1,4 +1,4 @@
-# Project-Building-with-Backgrounds-and-Gradient
+# Apple clone (Building-with-Backgrounds-and-Gradient)
 
 In this project you’ll clone the website of one of the most design-forward companies in the world. It’s not a very complex site but it uses background photos well and the navbar at the top contains a gradient that you should be able to mimic.
 
@@ -6,7 +6,7 @@ In this project you’ll clone the website of one of the most design-forward com
 
 Additional description about the project and its features.
 
-- Created a tag `<header>`, inside the header nav-bar is created using `<nav>` tag with multiple `<li>` tag which have the apple logo, multiple links and a seach-bar in it.
+- `<header>` tag created containing nav-bar with `<nav>` tag with multiple `<li>` tag which have the apple logo, multiple links and a seach-bar in it.
 
 - The nav-bar icons were made using [Font Awesome](https://fontawesome.com/) and were contained and aligned with *flexboxes*.
 
