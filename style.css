@@ -118,6 +118,16 @@ nav ul li:hover {
   display: flex;
 }
 
+.thumbnails a {
+  display: flex;
+  height: auto;
+}
+
+.box {
+  width: 25%;
+  flex: 1;
+}
+
 footer {
   display: flex;
   justify-content: space-around;
